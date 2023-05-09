@@ -26,6 +26,11 @@ function AddAluno() {
             reprovado.innerText = 'Reprovado'
             reprovado.style.color = '#F73636'
             reprovado.style.fontWeight = 'bold'
+        } else if (falta > 16) {
+            var reprovado = addLinha.insertCell(8)
+            reprovado.innerText = 'Reprovado'
+            reprovado.style.color = '#F73636'
+            reprovado.style.fontWeight = 'bold'
         } else {
             var aprovado = addLinha.insertCell(8)
             aprovado.innerText = 'Aprovado'
