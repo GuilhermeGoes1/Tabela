@@ -1,0 +1,50 @@
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+td,
+th {
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+thead {
+    background-color: rgb(171, 167, 167);
+}
+
+tbody {
+    background-color: antiquewhite;
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(44, 214, 229);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: rgb(31, 175, 188);
+    transition: .5s;
+}
+
+h1 {
+    font-size: 50px;
+}
